@@ -1,12 +1,7 @@
 style="width:30%; height: 30%; margin-bottom: -60px;"@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
-/*
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
+/* CSS Reset */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -219,8 +214,8 @@ input, select, textarea {
 		-webkit-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
-	/* Set your background with this */
-
+	
+		/* Set your background with this */
 		background: #348cb2 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
@@ -557,8 +552,11 @@ input, select, textarea {
 
 		#header p {
 			font-size: 1.25em;
-			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			color: white;
+			background-color:rgba(0, 0, 0, 0.8);
+			width: 630px;
+			margin: 0 auto;
+			opacity: 1;
 		}
 
 		#header nav {
