@@ -6,14 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
-/*
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 // Breakpoints.
-
 	@include breakpoints((
 		wide:      ( 1281px,  1680px ),
 		normal:    ( 737px,   1280px ),
@@ -22,7 +15,6 @@
 	));
 
 // Mixins.
-
 	@mixin bg($width) {
 		@include keyframes('bg') {
 			0%		{ @include vendor('transform', 'translate3d(0,0,0)'); }
@@ -42,8 +34,6 @@
 	$delay-nav-icon:		0.25s;
 
 // Reset.
-// Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
-
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	pre, a, abbr, acronym, address, big, cite,
